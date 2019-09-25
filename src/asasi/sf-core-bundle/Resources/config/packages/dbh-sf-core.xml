@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!-- config/packages/acme_social.xml -->
+<container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:dbh-sf-core="http://example.org/schema/dic/acme_social"
+           xmlns="http://symfony.com/schema/dic/services"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <dbh-sf-core:config>
+        <dbh-sf-core:resultformat/>
+    </dbh-sf-core:config>
+
+    <!-- ... -->
+</container>

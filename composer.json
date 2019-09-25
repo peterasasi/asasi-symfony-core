@@ -1,0 +1,23 @@
+{
+  "name": "asasi/sf-core-bundle",
+  "description": "sf self core",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [],
+  "minimum-stability": "stable",
+  "authors": [],
+  "autoload": {
+    "psr-4": {
+      "Dbh\\SfCoreBundle\\": "src/asasi/sf-core-bundle"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "asasi/component_encrypt": "1.0.*",
+    "asasi/component_ram": "1.0.*",
+    "symfony/orm-pack": "^1.0",
+    "symfony/translation": "4.3.*",
+    "symfony/serializer-pack": "^1.0"
+  }
+}
